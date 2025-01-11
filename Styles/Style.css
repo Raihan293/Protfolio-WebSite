@@ -1,1 +1,100 @@
 
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #2f2f2f;
+}
+.dark-3{
+    color: #000000;
+}
+/* Button Primary */
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 18px 35px;
+    font-size: 20px;
+    /* Border soranor jonno */
+    border: none;
+    border-radius: 5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5;
+    -ms-border-radius: 5;
+    -o-border-radius: 5;
+}
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* Nav style */ 
+
+nav{
+    display: flex;
+    /* Child gula ek line e anar jonno */
+    align-items: center;
+    /* Child Er Location */
+    justify-content: space-between;
+    margin: 0 200px;
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;   
+}
+
+nav ul li{
+    /* list er fota soranor jonno  */
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a{
+    /* Nicher dag soranor jonno  */
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Banner Style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:0 200px ;
+    
+}
+.banner-content{
+    width: 585px;
+    height: 356px;
+}
+.banner-greetings{
+     font-size: 45px;
+     font-weight: 500;
+     color: #2f2f2f;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-profile{
+    width: 584px;
+    height: 676px;
+}
+.banner-description{
+   word-wrap: normal; 
+}
+ button{
+    margin-right: 10px;
+ }
